@@ -5,7 +5,7 @@
 var monoSpace = '```'
 
 exports.listmenu = (sender,prefix,ad,namenya,premnya,usernya,romnya,tanggal,jam) => {
-return`━━━❲ 𝙂𝙐𝙍𝘽𝙊𝙏-𝙈𝘿 ❳━━━
+return`━━━❲ Havy-Bot ❳━━━
 ┏━━━━━━━━━━━━━
 ┣━( 𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢 )
 ┃▤ ID : @${sender.split('@')[0]}
@@ -705,17 +705,16 @@ return`━━━❲ 𝙂𝙐𝙍𝘽𝙊𝙏-𝙈𝘿 ❳━━━
 exports.rulesBot = () =>{
 return`*──「 RULES-BOT 」──*
 
-1. Jangan spam bot. 
-Sanksi: *WARN/SOFT BLOCK*
+1. Jangan spam/telp bot
+2. Jangan gunain buat 18+
+3. Kami tidak menyimpan gambar, foto, video dan media lainnya yang anda kirim
+4. Apapun yang kamu perintahkan owner TIDAK BERTANGGUNG JAWAB
 
-2. Jangan telepon bot.
-Sanksi: *SOFT BLOCK*
+Jika melanggar rules bot akan memblokir kamu dan
+Keluar dari grup yang bot tinggali
 
-3. Jangan mengejek bot.
-Sanksi: *PERMANENT BLOCK*
-
-Jika sudah paham rulesnya
-Ketik *#menu* untuk memulai bot`
+Jika sudah paham rules nya
+Silahkan ketik "#menu" untuk memulai`
 }
 
 exports.donasiBot = (cekName,ucapanWaktu) =>{
@@ -723,13 +722,12 @@ return`──「 *MENU DONATE* 」──
 
 Hi *${cekName}* ${ucapanWaktu} 👋🏻
 
-*Payment Ovo*
-Number: 085789004732
-A/N: LEXXY STORE
+*Payment Pulsa*
+Number: 083806733358 (Axis)
+A/N: Kay
 
-*Payment Dana*
-Number: 085789004732
-A/N: LEXXY OFFICIAL
+*Payment Qris*
+Untuk Qris silahkan minta ke owner
 
 ${monoSpace}Terimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini ^_^${monoSpace}
 
@@ -740,17 +738,17 @@ exports.infoOwner = () =>{
 return`──「 *INFO OWNER* 」──
 
  *Data Profil*
- • *Nama:* Lexxy Official
- • *Umur:* 18 tahun
+ • *Nama:* Kay
+ • *Umur:* - tahun
  • *Hoby:* Turu/Game
  • *Askot:* Palembang
- • *Konten:* Creator
+ • *Konten:* -
 
 _iam developer bot whatsapp._
 
  *Sosial Media*
- • *Whatsapp:* 083834558105
- • *Youtube:* Lexxy Official
- • *Github:* Lexxy24
+ • *Whatsapp:* 082180026483
+ • *Youtube:* -
+ • *Github:* itskayX404
  `
 }
